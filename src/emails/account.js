@@ -6,7 +6,7 @@ const sendWelcomeEmail = (email, name) => {
         to: email,
         from: 'julia.pacheco@polygon.pt',
         subject:'Welcome to Jus Task App',
-        text: 'Welcome ' + name +', thanks for using the Jus Task App!',
+        text: `Welcome ${name}, thanks for using the Jus Task App!`,
     })
 }
 
@@ -15,7 +15,7 @@ const sendCancelEmail = (email, name) => {
         to: email,
         from: 'julia.pacheco@polygon.pt',
         subject:'Goodbye!',
-        text: 'Bye bye ' + name +'! It was nice having you around...',
+        text: `Bye bye ${name}! It was nice having you around...`,
     })
 }
 
